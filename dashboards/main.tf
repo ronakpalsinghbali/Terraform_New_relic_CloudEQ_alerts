@@ -3,7 +3,7 @@ resource "newrelic_one_dashboard" "exampledash" {
   permissions = "public_read_only"
 
   page {
-    name = "New Relic Terraform page 1"
+    name = "New Relic Terraform page-1"
 
     widget_billboard {
       title  = "Requests per minute."
