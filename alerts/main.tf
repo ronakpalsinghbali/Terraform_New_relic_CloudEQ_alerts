@@ -42,3 +42,6 @@ resource "newrelic_nrql_alert_condition" "foo" {
     threshold_occurrences = each.value.warning.threshold_occurrences
   }
 }
+
+
+

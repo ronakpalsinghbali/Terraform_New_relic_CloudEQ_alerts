@@ -18,6 +18,7 @@ my_loop = {
     close_violations_on_expiration = true
     slide_by                       = 30
     nrql                           = "SELECT average(duration) FROM Transaction where appName = 'Your App'"
+    
     critical = {
       operator              = "above"
       threshold             = 5.5
@@ -64,6 +65,3 @@ my_loop = {
     }
   }
 }
-
-
-
